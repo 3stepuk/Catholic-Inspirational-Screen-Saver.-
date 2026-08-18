@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .gold-gradient {
+    background: linear-gradient(135deg, #c5a059 0%, #f1e0b5 50%, #a88a4a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gold-gradient-bg {
+    background: linear-gradient(135deg, #c5a059 0%, #f1e0b5 50%, #a88a4a 100%);
+  }
+
+  .gold-border {
+    border-color: rgba(197, 160, 89, 0.2);
+  }
+
+  .gold-border-glow {
+    box-shadow: 0 0 25px rgba(197, 160, 89, 0.12);
+  }
+}
+
+body {
+  background-color: #0c0c0b;
+  color: #d4c8b4;
+}

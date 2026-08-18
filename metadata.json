@@ -1,0 +1,6 @@
+{
+  "name": "Catholic Devotional Screensaver",
+  "description": "A serene browser screensaver featuring over 100 inspirational quotes from early Church Fathers to modern Popes, accompanied by atmospheric sacred visuals and ambient audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
